@@ -1,0 +1,721 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C4E51C671F36654500992529 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E51C661F36654500992529 /* AppDelegate.swift */; };
+		C4E51C691F36654500992529 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E51C681F36654500992529 /* ViewController.swift */; };
+		C4E51C6C1F36654500992529 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4E51C6A1F36654500992529 /* Main.storyboard */; };
+		C4E51C6F1F36654500992529 /* WashVes_Native.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C4E51C6D1F36654500992529 /* WashVes_Native.xcdatamodeld */; };
+		C4E51C711F36654500992529 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4E51C701F36654500992529 /* Assets.xcassets */; };
+		C4E51C741F36654500992529 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4E51C721F36654500992529 /* LaunchScreen.storyboard */; };
+		C4E51C7F1F36654600992529 /* WashVes_NativeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E51C7E1F36654600992529 /* WashVes_NativeTests.swift */; };
+		C4E51C8A1F36654600992529 /* WashVes_NativeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E51C891F36654600992529 /* WashVes_NativeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C4E51C7B1F36654600992529 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4E51C5B1F36654500992529 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4E51C621F36654500992529;
+			remoteInfo = "WashVes Native";
+		};
+		C4E51C861F36654600992529 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4E51C5B1F36654500992529 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4E51C621F36654500992529;
+			remoteInfo = "WashVes Native";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C4E51C631F36654500992529 /* WashVes Native.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WashVes Native.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4E51C661F36654500992529 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C4E51C681F36654500992529 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C4E51C6B1F36654500992529 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C4E51C6E1F36654500992529 /* WashVes_Native.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WashVes_Native.xcdatamodel; sourceTree = "<group>"; };
+		C4E51C701F36654500992529 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C4E51C731F36654500992529 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C4E51C751F36654500992529 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4E51C7A1F36654600992529 /* WashVes NativeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WashVes NativeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4E51C7E1F36654600992529 /* WashVes_NativeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WashVes_NativeTests.swift; sourceTree = "<group>"; };
+		C4E51C801F36654600992529 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4E51C851F36654600992529 /* WashVes NativeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WashVes NativeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4E51C891F36654600992529 /* WashVes_NativeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WashVes_NativeUITests.swift; sourceTree = "<group>"; };
+		C4E51C8B1F36654600992529 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C4E51C601F36654500992529 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4E51C771F36654600992529 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4E51C821F36654600992529 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C4E51C5A1F36654500992529 = {
+			isa = PBXGroup;
+			children = (
+				C4E51C651F36654500992529 /* WashVes Native */,
+				C4E51C7D1F36654600992529 /* WashVes NativeTests */,
+				C4E51C881F36654600992529 /* WashVes NativeUITests */,
+				C4E51C641F36654500992529 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C4E51C641F36654500992529 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4E51C631F36654500992529 /* WashVes Native.app */,
+				C4E51C7A1F36654600992529 /* WashVes NativeTests.xctest */,
+				C4E51C851F36654600992529 /* WashVes NativeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4E51C651F36654500992529 /* WashVes Native */ = {
+			isa = PBXGroup;
+			children = (
+				C4E51CA21F3665FF00992529 /* Custom Views */,
+				C4E51CA11F3665EA00992529 /* Libraries */,
+				C4E51CA01F3665E100992529 /* Extensions */,
+				C4E51C9F1F3665D000992529 /* Interactors */,
+				C4E51C9E1F3665CA00992529 /* Services */,
+				C4E51C9D1F3665C500992529 /* Models */,
+				C4E51C9C1F3665BF00992529 /* Repositories */,
+				C4E51C9B1F36659E00992529 /* Components */,
+				C4E51C971F36657200992529 /* Resources */,
+				C4E51C661F36654500992529 /* AppDelegate.swift */,
+				C4E51C681F36654500992529 /* ViewController.swift */,
+				C4E51C6A1F36654500992529 /* Main.storyboard */,
+				C4E51C701F36654500992529 /* Assets.xcassets */,
+				C4E51C721F36654500992529 /* LaunchScreen.storyboard */,
+				C4E51C751F36654500992529 /* Info.plist */,
+				C4E51C6D1F36654500992529 /* WashVes_Native.xcdatamodeld */,
+			);
+			path = "WashVes Native";
+			sourceTree = "<group>";
+		};
+		C4E51C7D1F36654600992529 /* WashVes NativeTests */ = {
+			isa = PBXGroup;
+			children = (
+				C4E51C7E1F36654600992529 /* WashVes_NativeTests.swift */,
+				C4E51C801F36654600992529 /* Info.plist */,
+			);
+			path = "WashVes NativeTests";
+			sourceTree = "<group>";
+		};
+		C4E51C881F36654600992529 /* WashVes NativeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C4E51C891F36654600992529 /* WashVes_NativeUITests.swift */,
+				C4E51C8B1F36654600992529 /* Info.plist */,
+			);
+			path = "WashVes NativeUITests";
+			sourceTree = "<group>";
+		};
+		C4E51C971F36657200992529 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C4E51C9A1F36659600992529 /* Assets */,
+				C4E51C991F36658C00992529 /* Fonts */,
+				C4E51C981F36658100992529 /* JSONs */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C4E51C981F36658100992529 /* JSONs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = JSONs;
+			sourceTree = "<group>";
+		};
+		C4E51C991F36658C00992529 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		C4E51C9A1F36659600992529 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		C4E51C9B1F36659E00992529 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				C4E51CAB1F36667F00992529 /* Drawer */,
+				C4E51CAA1F36667600992529 /* History */,
+				C4E51CA91F36666A00992529 /* Get Started */,
+				C4E51CA81F36665800992529 /* Messages */,
+				C4E51CA71F36664800992529 /* Date Location */,
+				C4E51CA61F36663F00992529 /* Basket */,
+				C4E51CA41F36662C00992529 /* Main Menu  */,
+				C4E51CA31F36662500992529 /* Splash Screen */,
+			);
+			name = Components;
+			sourceTree = "<group>";
+		};
+		C4E51C9C1F3665BF00992529 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Repositories;
+			sourceTree = "<group>";
+		};
+		C4E51C9D1F3665C500992529 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C4E51CAD1F3667F400992529 /* User */,
+				C4E51CAC1F3667DD00992529 /* Laundry Item */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		C4E51C9E1F3665CA00992529 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		C4E51C9F1F3665D000992529 /* Interactors */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Interactors;
+			sourceTree = "<group>";
+		};
+		C4E51CA01F3665E100992529 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		C4E51CA11F3665EA00992529 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		C4E51CA21F3665FF00992529 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Custom Views";
+			sourceTree = "<group>";
+		};
+		C4E51CA31F36662500992529 /* Splash Screen */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Splash Screen";
+			sourceTree = "<group>";
+		};
+		C4E51CA41F36662C00992529 /* Main Menu  */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Main Menu ";
+			sourceTree = "<group>";
+		};
+		C4E51CA61F36663F00992529 /* Basket */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Basket;
+			sourceTree = "<group>";
+		};
+		C4E51CA71F36664800992529 /* Date Location */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Date Location";
+			sourceTree = "<group>";
+		};
+		C4E51CA81F36665800992529 /* Messages */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Messages;
+			sourceTree = "<group>";
+		};
+		C4E51CA91F36666A00992529 /* Get Started */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Get Started";
+			sourceTree = "<group>";
+		};
+		C4E51CAA1F36667600992529 /* History */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = History;
+			sourceTree = "<group>";
+		};
+		C4E51CAB1F36667F00992529 /* Drawer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Drawer;
+			sourceTree = "<group>";
+		};
+		C4E51CAC1F3667DD00992529 /* Laundry Item */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Laundry Item";
+			sourceTree = "<group>";
+		};
+		C4E51CAD1F3667F400992529 /* User */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = User;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C4E51C621F36654500992529 /* WashVes Native */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4E51C8E1F36654600992529 /* Build configuration list for PBXNativeTarget "WashVes Native" */;
+			buildPhases = (
+				C4E51C5F1F36654500992529 /* Sources */,
+				C4E51C601F36654500992529 /* Frameworks */,
+				C4E51C611F36654500992529 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WashVes Native";
+			productName = "WashVes Native";
+			productReference = C4E51C631F36654500992529 /* WashVes Native.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C4E51C791F36654600992529 /* WashVes NativeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4E51C911F36654600992529 /* Build configuration list for PBXNativeTarget "WashVes NativeTests" */;
+			buildPhases = (
+				C4E51C761F36654600992529 /* Sources */,
+				C4E51C771F36654600992529 /* Frameworks */,
+				C4E51C781F36654600992529 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4E51C7C1F36654600992529 /* PBXTargetDependency */,
+			);
+			name = "WashVes NativeTests";
+			productName = "WashVes NativeTests";
+			productReference = C4E51C7A1F36654600992529 /* WashVes NativeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C4E51C841F36654600992529 /* WashVes NativeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4E51C941F36654600992529 /* Build configuration list for PBXNativeTarget "WashVes NativeUITests" */;
+			buildPhases = (
+				C4E51C811F36654600992529 /* Sources */,
+				C4E51C821F36654600992529 /* Frameworks */,
+				C4E51C831F36654600992529 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4E51C871F36654600992529 /* PBXTargetDependency */,
+			);
+			name = "WashVes NativeUITests";
+			productName = "WashVes NativeUITests";
+			productReference = C4E51C851F36654600992529 /* WashVes NativeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4E51C5B1F36654500992529 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Dino Pelic";
+				TargetAttributes = {
+					C4E51C621F36654500992529 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					C4E51C791F36654600992529 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C4E51C621F36654500992529;
+					};
+					C4E51C841F36654600992529 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C4E51C621F36654500992529;
+					};
+				};
+			};
+			buildConfigurationList = C4E51C5E1F36654500992529 /* Build configuration list for PBXProject "WashVes Native" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C4E51C5A1F36654500992529;
+			productRefGroup = C4E51C641F36654500992529 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4E51C621F36654500992529 /* WashVes Native */,
+				C4E51C791F36654600992529 /* WashVes NativeTests */,
+				C4E51C841F36654600992529 /* WashVes NativeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C4E51C611F36654500992529 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4E51C741F36654500992529 /* LaunchScreen.storyboard in Resources */,
+				C4E51C711F36654500992529 /* Assets.xcassets in Resources */,
+				C4E51C6C1F36654500992529 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4E51C781F36654600992529 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4E51C831F36654600992529 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4E51C5F1F36654500992529 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4E51C691F36654500992529 /* ViewController.swift in Sources */,
+				C4E51C6F1F36654500992529 /* WashVes_Native.xcdatamodeld in Sources */,
+				C4E51C671F36654500992529 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4E51C761F36654600992529 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4E51C7F1F36654600992529 /* WashVes_NativeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4E51C811F36654600992529 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4E51C8A1F36654600992529 /* WashVes_NativeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C4E51C7C1F36654600992529 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4E51C621F36654500992529 /* WashVes Native */;
+			targetProxy = C4E51C7B1F36654600992529 /* PBXContainerItemProxy */;
+		};
+		C4E51C871F36654600992529 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4E51C621F36654500992529 /* WashVes Native */;
+			targetProxy = C4E51C861F36654600992529 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C4E51C6A1F36654500992529 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4E51C6B1F36654500992529 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C4E51C721F36654500992529 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4E51C731F36654500992529 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C4E51C8C1F36654600992529 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C4E51C8D1F36654600992529 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C4E51C8F1F36654600992529 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "WashVes Native/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dino.WashVes-Native";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C4E51C901F36654600992529 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "WashVes Native/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dino.WashVes-Native";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		C4E51C921F36654600992529 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "WashVes NativeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dino.WashVes-NativeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WashVes Native.app/WashVes Native";
+			};
+			name = Debug;
+		};
+		C4E51C931F36654600992529 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "WashVes NativeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dino.WashVes-NativeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WashVes Native.app/WashVes Native";
+			};
+			name = Release;
+		};
+		C4E51C951F36654600992529 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "WashVes NativeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dino.WashVes-NativeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "WashVes Native";
+			};
+			name = Debug;
+		};
+		C4E51C961F36654600992529 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "WashVes NativeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dino.WashVes-NativeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "WashVes Native";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4E51C5E1F36654500992529 /* Build configuration list for PBXProject "WashVes Native" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4E51C8C1F36654600992529 /* Debug */,
+				C4E51C8D1F36654600992529 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4E51C8E1F36654600992529 /* Build configuration list for PBXNativeTarget "WashVes Native" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4E51C8F1F36654600992529 /* Debug */,
+				C4E51C901F36654600992529 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C4E51C911F36654600992529 /* Build configuration list for PBXNativeTarget "WashVes NativeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4E51C921F36654600992529 /* Debug */,
+				C4E51C931F36654600992529 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C4E51C941F36654600992529 /* Build configuration list for PBXNativeTarget "WashVes NativeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4E51C951F36654600992529 /* Debug */,
+				C4E51C961F36654600992529 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C4E51C6D1F36654500992529 /* WashVes_Native.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C4E51C6E1F36654500992529 /* WashVes_Native.xcdatamodel */,
+			);
+			currentVersion = C4E51C6E1F36654500992529 /* WashVes_Native.xcdatamodel */;
+			path = WashVes_Native.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C4E51C5B1F36654500992529 /* Project object */;
+}
