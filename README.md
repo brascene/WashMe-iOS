@@ -6,4 +6,4 @@ Progress so far:
 2. Get Started screen - choose your city
 Screenshot:
 
-![alt text](screenshots/GetStartedSS.png "City selection screenshot")
+![alt text](screenshots/GetStartedSS1.png "City selection screenshot")
