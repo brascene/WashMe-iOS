@@ -15,6 +15,8 @@
 		C4E51C741F36654500992529 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4E51C721F36654500992529 /* LaunchScreen.storyboard */; };
 		C4E51C7F1F36654600992529 /* WashVes_NativeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E51C7E1F36654600992529 /* WashVes_NativeTests.swift */; };
 		C4E51C8A1F36654600992529 /* WashVes_NativeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E51C891F36654600992529 /* WashVes_NativeUITests.swift */; };
+		C4E51CC61F371B0F00992529 /* GetStarted.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4E51CC51F371B0F00992529 /* GetStarted.storyboard */; };
+		C4E51CC81F371B2600992529 /* GetStartedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E51CC71F371B2600992529 /* GetStartedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		C4E51C851F36654600992529 /* WashVes NativeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WashVes NativeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4E51C891F36654600992529 /* WashVes_NativeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WashVes_NativeUITests.swift; sourceTree = "<group>"; };
 		C4E51C8B1F36654600992529 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4E51CC51F371B0F00992529 /* GetStarted.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GetStarted.storyboard; sourceTree = "<group>"; };
+		C4E51CC71F371B2600992529 /* GetStartedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetStartedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,7 +115,6 @@
 				C4E51C661F36654500992529 /* AppDelegate.swift */,
 				C4E51C681F36654500992529 /* ViewController.swift */,
 				C4E51C6A1F36654500992529 /* Main.storyboard */,
-				C4E51C701F36654500992529 /* Assets.xcassets */,
 				C4E51C721F36654500992529 /* LaunchScreen.storyboard */,
 				C4E51C751F36654500992529 /* Info.plist */,
 				C4E51C6D1F36654500992529 /* WashVes_Native.xcdatamodeld */,
@@ -164,6 +167,7 @@
 		C4E51C9A1F36659600992529 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				C4E51C701F36654500992529 /* Assets.xcassets */,
 			);
 			name = Assets;
 			sourceTree = "<group>";
@@ -178,7 +182,6 @@
 				C4E51CA71F36664800992529 /* Date Location */,
 				C4E51CA61F36663F00992529 /* Basket */,
 				C4E51CA41F36662C00992529 /* Main Menu  */,
-				C4E51CA31F36662500992529 /* Splash Screen */,
 			);
 			name = Components;
 			sourceTree = "<group>";
@@ -234,13 +237,6 @@
 			name = "Custom Views";
 			sourceTree = "<group>";
 		};
-		C4E51CA31F36662500992529 /* Splash Screen */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = "Splash Screen";
-			sourceTree = "<group>";
-		};
 		C4E51CA41F36662C00992529 /* Main Menu  */ = {
 			isa = PBXGroup;
 			children = (
@@ -272,6 +268,7 @@
 		C4E51CA91F36666A00992529 /* Get Started */ = {
 			isa = PBXGroup;
 			children = (
+				C4E51CC41F371AFD00992529 /* Views */,
 			);
 			name = "Get Started";
 			sourceTree = "<group>";
@@ -302,6 +299,15 @@
 			children = (
 			);
 			name = User;
+			sourceTree = "<group>";
+		};
+		C4E51CC41F371AFD00992529 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C4E51CC51F371B0F00992529 /* GetStarted.storyboard */,
+				C4E51CC71F371B2600992529 /* GetStartedViewController.swift */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -414,6 +420,7 @@
 				C4E51C741F36654500992529 /* LaunchScreen.storyboard in Resources */,
 				C4E51C711F36654500992529 /* Assets.xcassets in Resources */,
 				C4E51C6C1F36654500992529 /* Main.storyboard in Resources */,
+				C4E51CC61F371B0F00992529 /* GetStarted.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,6 +448,7 @@
 				C4E51C691F36654500992529 /* ViewController.swift in Sources */,
 				C4E51C6F1F36654500992529 /* WashVes_Native.xcdatamodeld in Sources */,
 				C4E51C671F36654500992529 /* AppDelegate.swift in Sources */,
+				C4E51CC81F371B2600992529 /* GetStartedViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
