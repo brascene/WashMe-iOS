@@ -8,28 +8,105 @@
 
 import UIKit
 
-class GetStartedViewController: UIViewController {
+class GetStartedViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
+    
+    @IBOutlet weak var nextButton: UIButton!
+    @IBOutlet weak var chooseCity: UILabel!
+    @IBOutlet weak var tableView: UITableView!
+    
+    var viewModel = GetStartedViewModel()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        setupTable()
+        setupLabelGesture()
+        setupCityLabel()
+        automaticallyAdjustsScrollViewInsets = false
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return 1
     }
-    */
-
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return viewModel.cities.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "CityTableViewCell", for: indexPath) as! CityTableViewCell
+        cell.setup(city: viewModel.cities[indexPath.row])
+        
+        if indexPath.row == 0 {
+            cell.setLabelRadius(rectMask: [.topRight, .topLeft])
+        } else if indexPath.row == (viewModel.cities.count - 1) {
+            cell.setLabelRadius(rectMask: [.bottomLeft, .bottomRight])
+        } else {
+            cell.setLabelRadius(rectMask: [])
+        }
+        
+        return cell
+    }
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 44
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        viewModel.choosenCity = viewModel.cities[indexPath.row]
+        chooseCity.text = viewModel.choosenCity
+        tableView.isHidden = true
+        tableView.deselectRow(at: indexPath, animated: true)
+        nextButton.isHidden = false
+    }
+    
+    // MARK: - Other functions
+    
+    func setupTable () {
+        tableView.delegate = self
+        tableView.dataSource = self
+        tableView.separatorStyle = .none
+        
+        let cell = UINib(nibName: "CityTableViewCell", bundle: nil)
+        
+        tableView.register(cell, forCellReuseIdentifier: "CityTableViewCell")
+        tableView.isHidden = true
+        
+        nextButton.isHidden = true
+        nextButton.layer.cornerRadius = 20
+    }
+    
+    func openTable () {
+        tableView.isHidden = false
+        tableView.transform = CGAffineTransform.init(scaleX: 1.0, y: 0.0)
+        
+        let tableHeight = tableView.contentSize.height
+        
+        tableView.transform = CGAffineTransform.init(translationX: 0, y: -tableHeight/2)
+        
+        UIView.animate(withDuration: 0.3, delay: 0, options: .curveEaseIn, animations: {
+            self.tableView.transform = CGAffineTransform.init(scaleX: 1.0, y: 1.0)
+            self.tableView.transform = CGAffineTransform.init(translationX: 0, y: 0)
+        }, completion: nil)
+    }
+    
+    func setupLabelGesture () {
+        let gpr = UITapGestureRecognizer(target: self, action: #selector(self.openTable))
+        gpr.numberOfTapsRequired = 1
+        chooseCity.isUserInteractionEnabled = true
+        chooseCity.addGestureRecognizer(gpr)
+    }
+    
+    func setupCityLabel () {
+        let rectShape = CAShapeLayer()
+        rectShape.bounds = self.chooseCity.frame
+        rectShape.position = self.chooseCity.center
+        rectShape.path = UIBezierPath(roundedRect: self.chooseCity.bounds, byRoundingCorners: [.bottomLeft, .bottomRight, .topLeft, .topRight], cornerRadii: CGSize(width: 20, height: 20)).cgPath
+        self.chooseCity.layer.mask = rectShape
+    }
 }

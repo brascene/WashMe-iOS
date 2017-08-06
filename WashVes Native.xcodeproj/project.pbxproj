@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		53C1DACBE005BD602E0B8625 /* Pods_WashVes_NativeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B7AC53E90C7CB9C460B0629 /* Pods_WashVes_NativeTests.framework */; };
 		8D0E039545D69F4DE6006F91 /* Pods_WashVes_NativeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A1EB113FFCD958ABE3C647B /* Pods_WashVes_NativeUITests.framework */; };
+		C4CAA72B1F3744E0002BD1F0 /* CityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CAA7291F3744E0002BD1F0 /* CityTableViewCell.swift */; };
+		C4CAA72C1F3744E0002BD1F0 /* CityTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4CAA72A1F3744E0002BD1F0 /* CityTableViewCell.xib */; };
+		C4CAA72F1F374D0D002BD1F0 /* GetStartedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CAA72E1F374D0D002BD1F0 /* GetStartedViewModel.swift */; };
 		C4E51C671F36654500992529 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E51C661F36654500992529 /* AppDelegate.swift */; };
 		C4E51C691F36654500992529 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E51C681F36654500992529 /* ViewController.swift */; };
 		C4E51C6C1F36654500992529 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4E51C6A1F36654500992529 /* Main.storyboard */; };
@@ -50,6 +53,9 @@
 		8BDA8E7BC834EE4FDB9043E7 /* Pods-WashVes Native.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WashVes Native.release.xcconfig"; path = "Pods/Target Support Files/Pods-WashVes Native/Pods-WashVes Native.release.xcconfig"; sourceTree = "<group>"; };
 		914D9E04983C96A1D029633F /* Pods_WashVes_Native.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WashVes_Native.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4302DF21F3737860003A17D /* WashVes Native.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "WashVes Native.entitlements"; sourceTree = "<group>"; };
+		C4CAA7291F3744E0002BD1F0 /* CityTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityTableViewCell.swift; sourceTree = "<group>"; };
+		C4CAA72A1F3744E0002BD1F0 /* CityTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CityTableViewCell.xib; sourceTree = "<group>"; };
+		C4CAA72E1F374D0D002BD1F0 /* GetStartedViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetStartedViewModel.swift; sourceTree = "<group>"; };
 		C4E51C631F36654500992529 /* WashVes Native.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WashVes Native.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4E51C661F36654500992529 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C4E51C681F36654500992529 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -119,6 +125,23 @@
 				77AB7751BB91A13EB3C3EB09 /* Pods-WashVes NativeUITests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		C4CAA7281F3744B6002BD1F0 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				C4CAA7291F3744E0002BD1F0 /* CityTableViewCell.swift */,
+				C4CAA72A1F3744E0002BD1F0 /* CityTableViewCell.xib */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		C4CAA72D1F374CF9002BD1F0 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				C4CAA72E1F374D0D002BD1F0 /* GetStartedViewModel.swift */,
+			);
+			name = "View Model";
 			sourceTree = "<group>";
 		};
 		C4E51C5A1F36654500992529 = {
@@ -313,6 +336,7 @@
 		C4E51CA91F36666A00992529 /* Get Started */ = {
 			isa = PBXGroup;
 			children = (
+				C4CAA72D1F374CF9002BD1F0 /* View Model */,
 				C4E51CC41F371AFD00992529 /* Views */,
 			);
 			name = "Get Started";
@@ -349,6 +373,7 @@
 		C4E51CC41F371AFD00992529 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				C4CAA7281F3744B6002BD1F0 /* Cells */,
 				C4E51CC51F371B0F00992529 /* GetStarted.storyboard */,
 				C4E51CC71F371B2600992529 /* GetStartedViewController.swift */,
 			);
@@ -483,6 +508,7 @@
 				C4E51C711F36654500992529 /* Assets.xcassets in Resources */,
 				C4E51CCF1F37307600992529 /* GoogleService-Info.plist in Resources */,
 				C4E51C6C1F36654500992529 /* Main.storyboard in Resources */,
+				C4CAA72C1F3744E0002BD1F0 /* CityTableViewCell.xib in Resources */,
 				C4E51CC61F371B0F00992529 /* GetStarted.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -648,6 +674,8 @@
 			files = (
 				C4E51C691F36654500992529 /* ViewController.swift in Sources */,
 				C4E51C6F1F36654500992529 /* WashVes_Native.xcdatamodeld in Sources */,
+				C4CAA72B1F3744E0002BD1F0 /* CityTableViewCell.swift in Sources */,
+				C4CAA72F1F374D0D002BD1F0 /* GetStartedViewModel.swift in Sources */,
 				C4E51C671F36654500992529 /* AppDelegate.swift in Sources */,
 				C4E51CC81F371B2600992529 /* GetStartedViewController.swift in Sources */,
 			);
