@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		53C1DACBE005BD602E0B8625 /* Pods_WashVes_NativeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B7AC53E90C7CB9C460B0629 /* Pods_WashVes_NativeTests.framework */; };
 		8D0E039545D69F4DE6006F91 /* Pods_WashVes_NativeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A1EB113FFCD958ABE3C647B /* Pods_WashVes_NativeUITests.framework */; };
+		C4B1790A1F386C3000317D1D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C4B179091F386C3000317D1D /* GoogleService-Info.plist */; };
+		C4B1790E1F389C1000317D1D /* GetCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B1790D1F389C1000317D1D /* GetCodeViewController.swift */; };
+		C4B179101F38A1BE00317D1D /* CheckCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B1790F1F38A1BE00317D1D /* CheckCodeViewController.swift */; };
 		C4CAA72B1F3744E0002BD1F0 /* CityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CAA7291F3744E0002BD1F0 /* CityTableViewCell.swift */; };
 		C4CAA72C1F3744E0002BD1F0 /* CityTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4CAA72A1F3744E0002BD1F0 /* CityTableViewCell.xib */; };
 		C4CAA72F1F374D0D002BD1F0 /* GetStartedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CAA72E1F374D0D002BD1F0 /* GetStartedViewModel.swift */; };
@@ -22,7 +25,6 @@
 		C4E51C8A1F36654600992529 /* WashVes_NativeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E51C891F36654600992529 /* WashVes_NativeUITests.swift */; };
 		C4E51CC61F371B0F00992529 /* GetStarted.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4E51CC51F371B0F00992529 /* GetStarted.storyboard */; };
 		C4E51CC81F371B2600992529 /* GetStartedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E51CC71F371B2600992529 /* GetStartedViewController.swift */; };
-		C4E51CCF1F37307600992529 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C4E51CCE1F37307600992529 /* GoogleService-Info.plist */; };
 		FDF26AF9EB2C25035B1460FB /* Pods_WashVes_Native.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 914D9E04983C96A1D029633F /* Pods_WashVes_Native.framework */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +55,9 @@
 		8BDA8E7BC834EE4FDB9043E7 /* Pods-WashVes Native.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WashVes Native.release.xcconfig"; path = "Pods/Target Support Files/Pods-WashVes Native/Pods-WashVes Native.release.xcconfig"; sourceTree = "<group>"; };
 		914D9E04983C96A1D029633F /* Pods_WashVes_Native.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WashVes_Native.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4302DF21F3737860003A17D /* WashVes Native.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "WashVes Native.entitlements"; sourceTree = "<group>"; };
+		C4B179091F386C3000317D1D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C4B1790D1F389C1000317D1D /* GetCodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetCodeViewController.swift; sourceTree = "<group>"; };
+		C4B1790F1F38A1BE00317D1D /* CheckCodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckCodeViewController.swift; sourceTree = "<group>"; };
 		C4CAA7291F3744E0002BD1F0 /* CityTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityTableViewCell.swift; sourceTree = "<group>"; };
 		C4CAA72A1F3744E0002BD1F0 /* CityTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CityTableViewCell.xib; sourceTree = "<group>"; };
 		C4CAA72E1F374D0D002BD1F0 /* GetStartedViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetStartedViewModel.swift; sourceTree = "<group>"; };
@@ -72,7 +77,6 @@
 		C4E51C8B1F36654600992529 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C4E51CC51F371B0F00992529 /* GetStarted.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GetStarted.storyboard; sourceTree = "<group>"; };
 		C4E51CC71F371B2600992529 /* GetStartedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetStartedViewController.swift; sourceTree = "<group>"; };
-		C4E51CCE1F37307600992529 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E3D12FF6BB7DAE22AED908EC /* Pods-WashVes NativeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WashVes NativeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WashVes NativeTests/Pods-WashVes NativeTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -184,7 +188,7 @@
 				C4E51C6A1F36654500992529 /* Main.storyboard */,
 				C4E51C721F36654500992529 /* LaunchScreen.storyboard */,
 				C4E51C751F36654500992529 /* Info.plist */,
-				C4E51CCE1F37307600992529 /* GoogleService-Info.plist */,
+				C4B179091F386C3000317D1D /* GoogleService-Info.plist */,
 				C4E51C6D1F36654500992529 /* WashVes_Native.xcdatamodeld */,
 			);
 			path = "WashVes Native";
@@ -376,6 +380,8 @@
 				C4CAA7281F3744B6002BD1F0 /* Cells */,
 				C4E51CC51F371B0F00992529 /* GetStarted.storyboard */,
 				C4E51CC71F371B2600992529 /* GetStartedViewController.swift */,
+				C4B1790F1F38A1BE00317D1D /* CheckCodeViewController.swift */,
+				C4B1790D1F389C1000317D1D /* GetCodeViewController.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -457,7 +463,8 @@
 				TargetAttributes = {
 					C4E51C621F36654500992529 = {
 						CreatedOnToolsVersion = 8.3.3;
-						ProvisioningStyle = Manual;
+						DevelopmentTeam = RG7TDVCX52;
+						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
@@ -506,10 +513,10 @@
 			files = (
 				C4E51C741F36654500992529 /* LaunchScreen.storyboard in Resources */,
 				C4E51C711F36654500992529 /* Assets.xcassets in Resources */,
-				C4E51CCF1F37307600992529 /* GoogleService-Info.plist in Resources */,
 				C4E51C6C1F36654500992529 /* Main.storyboard in Resources */,
 				C4CAA72C1F3744E0002BD1F0 /* CityTableViewCell.xib in Resources */,
 				C4E51CC61F371B0F00992529 /* GetStarted.storyboard in Resources */,
+				C4B1790A1F386C3000317D1D /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -672,12 +679,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4B179101F38A1BE00317D1D /* CheckCodeViewController.swift in Sources */,
 				C4E51C691F36654500992529 /* ViewController.swift in Sources */,
 				C4E51C6F1F36654500992529 /* WashVes_Native.xcdatamodeld in Sources */,
 				C4CAA72B1F3744E0002BD1F0 /* CityTableViewCell.swift in Sources */,
 				C4CAA72F1F374D0D002BD1F0 /* GetStartedViewModel.swift in Sources */,
 				C4E51C671F36654500992529 /* AppDelegate.swift in Sources */,
 				C4E51CC81F371B2600992529 /* GetStartedViewController.swift in Sources */,
+				C4B1790E1F389C1000317D1D /* GetCodeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -831,14 +840,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "WashVes Native/WashVes Native.entitlements";
-				DEVELOPMENT_TEAM = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = RG7TDVCX52;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = "WashVes Native/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.dino.WashVes-Native";
+				PRODUCT_BUNDLE_IDENTIFIER = dinoWashWesh;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
@@ -851,14 +861,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "WashVes Native/WashVes Native.entitlements";
-				DEVELOPMENT_TEAM = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = RG7TDVCX52;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = "WashVes Native/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.dino.WashVes-Native";
+				PRODUCT_BUNDLE_IDENTIFIER = dinoWashWesh;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;

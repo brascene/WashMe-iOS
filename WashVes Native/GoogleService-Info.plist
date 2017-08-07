@@ -7,21 +7,21 @@
 	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
 	<string>ca-app-pub-3940256099942544/4411468910</string>
 	<key>CLIENT_ID</key>
-	<string>311835137147-j5554eduqv89r1rltp35bvrlq76hr3g9.apps.googleusercontent.com</string>
+	<string>67850135292-lq179h27s202ni1063u0uan4sk6n264f.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.311835137147-j5554eduqv89r1rltp35bvrlq76hr3g9</string>
+	<string>com.googleusercontent.apps.67850135292-lq179h27s202ni1063u0uan4sk6n264f</string>
 	<key>API_KEY</key>
-	<string>AIzaSyBPbMIsMvw7hje9xGf544UgDfo3QMSWVoI</string>
+	<string>AIzaSyCUePusxF7TyOwu95ssUlWqqbYYC9D-Zw4</string>
 	<key>GCM_SENDER_ID</key>
-	<string>311835137147</string>
+	<string>67850135292</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.dino.WashVes-Native</string>
+	<string>dinoWashWesh</string>
 	<key>PROJECT_ID</key>
-	<string>veseraj-19fb0</string>
+	<string>realclean-4e063</string>
 	<key>STORAGE_BUCKET</key>
-	<string>veseraj-19fb0.appspot.com</string>
+	<string>realclean-4e063.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<true/>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -33,8 +33,8 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true/>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:311835137147:ios:d31d1ca125fb2adc</string>
+	<string>1:67850135292:ios:202a14fd3e775bdb</string>
 	<key>DATABASE_URL</key>
-	<string>https://veseraj-19fb0.firebaseio.com</string>
+	<string>https://realclean-4e063.firebaseio.com</string>
 </dict>
 </plist>
