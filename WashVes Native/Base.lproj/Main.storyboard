@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="sPT-65-Xac">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -10,10 +10,26 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Wash Navigation View Controller-->
+        <scene sceneID="kjW-HK-8wO">
+            <objects>
+                <navigationController storyboardIdentifier="splash" navigationBarHidden="YES" id="sPT-65-Xac" customClass="WashNavigationViewController" customModule="WashVes_Native" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="UhB-hQ-GNZ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="IQB-AS-XRx"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YmW-gU-1te" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-778" y="38"/>
+        </scene>
+        <!--Splash View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="WashVes_Native" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SplashViewController" id="BYZ-38-t0r" customClass="SplashViewController" customModule="WashVes_Native" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -23,19 +39,20 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Splash1" translatesAutoresizingMaskIntoConstraints="NO" id="1gU-bQ-wVp">
-                                <rect key="frame" x="87" y="233" width="200" height="200"/>
+                                <rect key="frame" x="107" y="243" width="160" height="170"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.10980392156862745" green="0.37254901960784315" blue="0.55686274509803924" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="1gU-bQ-wVp" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="213" id="R61-XP-GrC"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="1gU-bQ-wVp" secondAttribute="bottom" constant="234" id="UPf-iS-CVT"/>
-                            <constraint firstItem="1gU-bQ-wVp" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="71" id="Y14-Ye-HGU"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="1gU-bQ-wVp" secondAttribute="trailing" constant="72" id="nFb-Gr-ePE"/>
+                            <constraint firstItem="1gU-bQ-wVp" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="223" id="R61-XP-GrC"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="1gU-bQ-wVp" secondAttribute="bottom" constant="254" id="UPf-iS-CVT"/>
+                            <constraint firstItem="1gU-bQ-wVp" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="91" id="Y14-Ye-HGU"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="1gU-bQ-wVp" secondAttribute="trailing" constant="92" id="nFb-Gr-ePE"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="sKs-bb-pCq"/>
                     <connections>
-                        <outlet property="splashImage" destination="1gU-bQ-wVp" id="VSg-wy-FYa"/>
+                        <outlet property="splashImage" destination="1gU-bQ-wVp" id="W7h-g7-lyn"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

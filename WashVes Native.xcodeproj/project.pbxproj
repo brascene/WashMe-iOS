@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		53C1DACBE005BD602E0B8625 /* Pods_WashVes_NativeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B7AC53E90C7CB9C460B0629 /* Pods_WashVes_NativeTests.framework */; };
 		8D0E039545D69F4DE6006F91 /* Pods_WashVes_NativeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A1EB113FFCD958ABE3C647B /* Pods_WashVes_NativeUITests.framework */; };
+		C442AD6D1F3F2C2600989D9D /* MessageScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C442AD6C1F3F2C2600989D9D /* MessageScreenViewController.swift */; };
+		C442AD6F1F3F3AA700989D9D /* MainMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C442AD6E1F3F3AA700989D9D /* MainMenuViewController.swift */; };
+		C442AD711F3F3AAF00989D9D /* MainMenu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C442AD701F3F3AAF00989D9D /* MainMenu.storyboard */; };
+		C442AD731F3F508D00989D9D /* MessageScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C442AD721F3F508D00989D9D /* MessageScreen.storyboard */; };
+		C442AD751F3F847200989D9D /* WashNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C442AD741F3F847200989D9D /* WashNavigationViewController.swift */; };
 		C4B1790A1F386C3000317D1D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C4B179091F386C3000317D1D /* GoogleService-Info.plist */; };
 		C4B1790E1F389C1000317D1D /* GetCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B1790D1F389C1000317D1D /* GetCodeViewController.swift */; };
 		C4B179101F38A1BE00317D1D /* CheckCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B1790F1F38A1BE00317D1D /* CheckCodeViewController.swift */; };
@@ -16,7 +21,7 @@
 		C4CAA72C1F3744E0002BD1F0 /* CityTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4CAA72A1F3744E0002BD1F0 /* CityTableViewCell.xib */; };
 		C4CAA72F1F374D0D002BD1F0 /* GetStartedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CAA72E1F374D0D002BD1F0 /* GetStartedViewModel.swift */; };
 		C4E51C671F36654500992529 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E51C661F36654500992529 /* AppDelegate.swift */; };
-		C4E51C691F36654500992529 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E51C681F36654500992529 /* ViewController.swift */; };
+		C4E51C691F36654500992529 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E51C681F36654500992529 /* SplashViewController.swift */; };
 		C4E51C6C1F36654500992529 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4E51C6A1F36654500992529 /* Main.storyboard */; };
 		C4E51C6F1F36654500992529 /* WashVes_Native.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C4E51C6D1F36654500992529 /* WashVes_Native.xcdatamodeld */; };
 		C4E51C711F36654500992529 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4E51C701F36654500992529 /* Assets.xcassets */; };
@@ -55,6 +60,11 @@
 		8BDA8E7BC834EE4FDB9043E7 /* Pods-WashVes Native.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WashVes Native.release.xcconfig"; path = "Pods/Target Support Files/Pods-WashVes Native/Pods-WashVes Native.release.xcconfig"; sourceTree = "<group>"; };
 		914D9E04983C96A1D029633F /* Pods_WashVes_Native.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WashVes_Native.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4302DF21F3737860003A17D /* WashVes Native.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "WashVes Native.entitlements"; sourceTree = "<group>"; };
+		C442AD6C1F3F2C2600989D9D /* MessageScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageScreenViewController.swift; sourceTree = "<group>"; };
+		C442AD6E1F3F3AA700989D9D /* MainMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenuViewController.swift; sourceTree = "<group>"; };
+		C442AD701F3F3AAF00989D9D /* MainMenu.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainMenu.storyboard; sourceTree = "<group>"; };
+		C442AD721F3F508D00989D9D /* MessageScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MessageScreen.storyboard; sourceTree = "<group>"; };
+		C442AD741F3F847200989D9D /* WashNavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WashNavigationViewController.swift; sourceTree = "<group>"; };
 		C4B179091F386C3000317D1D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C4B1790D1F389C1000317D1D /* GetCodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetCodeViewController.swift; sourceTree = "<group>"; };
 		C4B1790F1F38A1BE00317D1D /* CheckCodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckCodeViewController.swift; sourceTree = "<group>"; };
@@ -63,7 +73,7 @@
 		C4CAA72E1F374D0D002BD1F0 /* GetStartedViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetStartedViewModel.swift; sourceTree = "<group>"; };
 		C4E51C631F36654500992529 /* WashVes Native.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WashVes Native.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4E51C661F36654500992529 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C4E51C681F36654500992529 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C4E51C681F36654500992529 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		C4E51C6B1F36654500992529 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C4E51C6E1F36654500992529 /* WashVes_Native.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WashVes_Native.xcdatamodel; sourceTree = "<group>"; };
 		C4E51C701F36654500992529 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -184,7 +194,7 @@
 				C4E51C9B1F36659E00992529 /* Components */,
 				C4E51C971F36657200992529 /* Resources */,
 				C4E51C661F36654500992529 /* AppDelegate.swift */,
-				C4E51C681F36654500992529 /* ViewController.swift */,
+				C4E51C681F36654500992529 /* SplashViewController.swift */,
 				C4E51C6A1F36654500992529 /* Main.storyboard */,
 				C4E51C721F36654500992529 /* LaunchScreen.storyboard */,
 				C4E51C751F36654500992529 /* Info.plist */,
@@ -298,6 +308,7 @@
 		C4E51CA11F3665EA00992529 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				C442AD741F3F847200989D9D /* WashNavigationViewController.swift */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -312,6 +323,8 @@
 		C4E51CA41F36662C00992529 /* Main Menu  */ = {
 			isa = PBXGroup;
 			children = (
+				C442AD6E1F3F3AA700989D9D /* MainMenuViewController.swift */,
+				C442AD701F3F3AAF00989D9D /* MainMenu.storyboard */,
 			);
 			name = "Main Menu ";
 			sourceTree = "<group>";
@@ -333,6 +346,8 @@
 		C4E51CA81F36665800992529 /* Messages */ = {
 			isa = PBXGroup;
 			children = (
+				C442AD6C1F3F2C2600989D9D /* MessageScreenViewController.swift */,
+				C442AD721F3F508D00989D9D /* MessageScreen.storyboard */,
 			);
 			name = Messages;
 			sourceTree = "<group>";
@@ -512,8 +527,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4E51C741F36654500992529 /* LaunchScreen.storyboard in Resources */,
+				C442AD711F3F3AAF00989D9D /* MainMenu.storyboard in Resources */,
 				C4E51C711F36654500992529 /* Assets.xcassets in Resources */,
 				C4E51C6C1F36654500992529 /* Main.storyboard in Resources */,
+				C442AD731F3F508D00989D9D /* MessageScreen.storyboard in Resources */,
 				C4CAA72C1F3744E0002BD1F0 /* CityTableViewCell.xib in Resources */,
 				C4E51CC61F371B0F00992529 /* GetStarted.storyboard in Resources */,
 				C4B1790A1F386C3000317D1D /* GoogleService-Info.plist in Resources */,
@@ -680,10 +697,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4B179101F38A1BE00317D1D /* CheckCodeViewController.swift in Sources */,
-				C4E51C691F36654500992529 /* ViewController.swift in Sources */,
+				C442AD751F3F847200989D9D /* WashNavigationViewController.swift in Sources */,
+				C4E51C691F36654500992529 /* SplashViewController.swift in Sources */,
 				C4E51C6F1F36654500992529 /* WashVes_Native.xcdatamodeld in Sources */,
+				C442AD6D1F3F2C2600989D9D /* MessageScreenViewController.swift in Sources */,
 				C4CAA72B1F3744E0002BD1F0 /* CityTableViewCell.swift in Sources */,
 				C4CAA72F1F374D0D002BD1F0 /* GetStartedViewModel.swift in Sources */,
+				C442AD6F1F3F3AA700989D9D /* MainMenuViewController.swift in Sources */,
 				C4E51C671F36654500992529 /* AppDelegate.swift in Sources */,
 				C4E51CC81F371B2600992529 /* GetStartedViewController.swift in Sources */,
 				C4B1790E1F389C1000317D1D /* GetCodeViewController.swift in Sources */,

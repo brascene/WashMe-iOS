@@ -22,6 +22,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         FirebaseApp.configure()
         
+        let mainController = UIStoryboard(name: "Main", bundle: nil).instantiateInitialViewController() as! WashNavigationViewController
+        let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier:"SplashViewController") as! SplashViewController
+        
+        mainController.setViewControllers([vc], animated: true)
+
+        self.window?.rootViewController = mainController
+        self.window?.makeKeyAndVisible()
+        
         if #available(iOS 10, *) {
             UNUserNotificationCenter.current().requestAuthorization(options: [.badge, .sound, .alert], completionHandler: { (granted, error) in })
             application.registerForRemoteNotifications()

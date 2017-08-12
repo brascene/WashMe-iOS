@@ -8,8 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-    
+class SplashViewController: UIViewController {
     
     @IBOutlet weak var splashImage: UIImageView!
     var timer: Timer?
@@ -34,9 +33,9 @@ class ViewController: UIViewController {
     
     func showGetStartedScreen () {
         let sb = UIStoryboard(name: "GetStarted", bundle: nil)
-        let getStartedVC = sb.instantiateViewController(withIdentifier: "getStarted")
-        self.present(getStartedVC, animated: false, completion: nil)
-
+        let getStartedVC = sb.instantiateViewController(withIdentifier: "getStarted") as! GetStartedViewController
+        //self.present(getStartedVC, animated: true)
+        self.navigationController?.pushViewController(getStartedVC, animated: false)
     }
 
     override func didReceiveMemoryWarning() {

@@ -10,8 +10,6 @@ import UIKit
 import FirebaseAuth
 
 class GetCodeViewController: UIViewController {
-
-    
     @IBOutlet weak var phoneInput: UITextField!
     
     @IBAction func getCodeAction(_ sender: UIButton) {

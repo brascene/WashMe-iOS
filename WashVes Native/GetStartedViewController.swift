@@ -10,6 +10,18 @@ import UIKit
 
 class GetStartedViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
+    @IBAction func nextAction(_ sender: UIButton) {
+        let messageVC = UIStoryboard(name: "MessageScreen", bundle: nil).instantiateViewController(withIdentifier: "MessageScreen") as! MessageScreenViewController
+        messageVC.msgImage = #imageLiteral(resourceName: "loginSuccess")
+        messageVC.msgTitle = "Hvala!"
+        messageVC.msgSubtitle = "Obavijestit ćemo Vas kada veš bude suh i spreman za ormar."
+        messageVC.btnText = "OK"
+        messageVC.destinationSB = "MainMenu"
+        messageVC.destinationVC = "MainMenu"
+        let nav = UIStoryboard(name: "MessageScreen", bundle: nil).instantiateInitialViewController() as! WashNavigationViewController
+        nav.setViewControllers([messageVC], animated: true)
+        self.present(nav, animated: true)
+    }
     
     @IBOutlet weak var nextButton: UIButton!
     @IBOutlet weak var chooseCity: UILabel!
@@ -23,7 +35,7 @@ class GetStartedViewController: UIViewController, UITableViewDelegate, UITableVi
         setupTable()
         setupLabelGesture()
         setupCityLabel()
-        automaticallyAdjustsScrollViewInsets = false
+        automaticallyAdjustsScrollViewInsets = false        
     }
 
     override func didReceiveMemoryWarning() {
@@ -82,17 +94,21 @@ class GetStartedViewController: UIViewController, UITableViewDelegate, UITableVi
     }
     
     func openTable () {
-        tableView.isHidden = false
-        tableView.transform = CGAffineTransform.init(scaleX: 1.0, y: 0.0)
-        
-        let tableHeight = tableView.contentSize.height
-        
-        tableView.transform = CGAffineTransform.init(translationX: 0, y: -tableHeight/2)
-        
-        UIView.animate(withDuration: 0.3, delay: 0, options: .curveEaseIn, animations: {
-            self.tableView.transform = CGAffineTransform.init(scaleX: 1.0, y: 1.0)
-            self.tableView.transform = CGAffineTransform.init(translationX: 0, y: 0)
-        }, completion: nil)
+        if tableView.isHidden {
+            tableView.isHidden = false
+            tableView.transform = CGAffineTransform.init(scaleX: 1.0, y: 0.0)
+            
+            let tableHeight = tableView.contentSize.height
+            
+            tableView.transform = CGAffineTransform.init(translationX: 0, y: -tableHeight/2)
+            
+            UIView.animate(withDuration: 0.3, delay: 0, options: .curveEaseIn, animations: {
+                self.tableView.transform = CGAffineTransform.init(scaleX: 1.0, y: 1.0)
+                self.tableView.transform = CGAffineTransform.init(translationX: 0, y: 0)
+            }, completion: nil)
+        } else {
+            tableView.isHidden = true
+        }
     }
     
     func setupLabelGesture () {
