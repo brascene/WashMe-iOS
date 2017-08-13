@@ -12,12 +12,8 @@ class GetStartedViewController: UIViewController, UITableViewDelegate, UITableVi
 
     @IBAction func nextAction(_ sender: UIButton) {
         let messageVC = UIStoryboard(name: "MessageScreen", bundle: nil).instantiateViewController(withIdentifier: "MessageScreen") as! MessageScreenViewController
-        messageVC.msgImage = #imageLiteral(resourceName: "loginSuccess")
-        messageVC.msgTitle = "Hvala!"
-        messageVC.msgSubtitle = "Obavijestit ćemo Vas kada veš bude suh i spreman za ormar."
-        messageVC.btnText = "OK"
-        messageVC.destinationSB = "MainMenu"
-        messageVC.destinationVC = "MainMenu"
+        var messageModel = MessageViewModel(msgImage: #imageLiteral(resourceName: "loginSuccess"), msgTitle: "Hvala!", msgSubtitle: "Obavijestit ćemo Vas kada veš bude suh i spreman za ormar.", btnText: "OK", dsb: "MainMenu", dvc: "MainMenu")
+        messageVC.messageModel = messageModel
         let nav = UIStoryboard(name: "MessageScreen", bundle: nil).instantiateInitialViewController() as! WashNavigationViewController
         nav.setViewControllers([messageVC], animated: true)
         self.present(nav, animated: true)

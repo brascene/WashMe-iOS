@@ -14,6 +14,17 @@
 		C442AD711F3F3AAF00989D9D /* MainMenu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C442AD701F3F3AAF00989D9D /* MainMenu.storyboard */; };
 		C442AD731F3F508D00989D9D /* MessageScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C442AD721F3F508D00989D9D /* MessageScreen.storyboard */; };
 		C442AD751F3F847200989D9D /* WashNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C442AD741F3F847200989D9D /* WashNavigationViewController.swift */; };
+		C442AD7A1F40611D00989D9D /* MessageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C442AD791F40611D00989D9D /* MessageViewModel.swift */; };
+		C442AD7E1F407AD600989D9D /* WashNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C442AD7D1F407AD600989D9D /* WashNavigationBar.swift */; };
+		C442AD801F40A75F00989D9D /* SlideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C442AD7F1F40A75F00989D9D /* SlideMenuController.swift */; };
+		C442AD871F40A84100989D9D /* Rajdhani-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C442AD821F40A84100989D9D /* Rajdhani-Light.ttf */; };
+		C442AD881F40A84100989D9D /* Rajdhani-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C442AD831F40A84100989D9D /* Rajdhani-Medium.ttf */; };
+		C442AD891F40A84100989D9D /* Rajdhani-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C442AD841F40A84100989D9D /* Rajdhani-Regular.ttf */; };
+		C442AD8A1F40A84100989D9D /* Rajdhani-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C442AD851F40A84100989D9D /* Rajdhani-SemiBold.ttf */; };
+		C442AD8B1F40A84100989D9D /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C442AD861F40A84100989D9D /* Roboto-Regular.ttf */; };
+		C442AD8C1F40A84A00989D9D /* Rajdhani-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C442AD811F40A82C00989D9D /* Rajdhani-Bold.ttf */; };
+		C442AD8E1F40B0D800989D9D /* LeftSideMenu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C442AD8D1F40B0D800989D9D /* LeftSideMenu.storyboard */; };
+		C442AD901F40B0F600989D9D /* LeftSideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C442AD8F1F40B0F600989D9D /* LeftSideMenuViewController.swift */; };
 		C4B1790A1F386C3000317D1D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C4B179091F386C3000317D1D /* GoogleService-Info.plist */; };
 		C4B1790E1F389C1000317D1D /* GetCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B1790D1F389C1000317D1D /* GetCodeViewController.swift */; };
 		C4B179101F38A1BE00317D1D /* CheckCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B1790F1F38A1BE00317D1D /* CheckCodeViewController.swift */; };
@@ -65,6 +76,17 @@
 		C442AD701F3F3AAF00989D9D /* MainMenu.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainMenu.storyboard; sourceTree = "<group>"; };
 		C442AD721F3F508D00989D9D /* MessageScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MessageScreen.storyboard; sourceTree = "<group>"; };
 		C442AD741F3F847200989D9D /* WashNavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WashNavigationViewController.swift; sourceTree = "<group>"; };
+		C442AD791F40611D00989D9D /* MessageViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageViewModel.swift; sourceTree = "<group>"; };
+		C442AD7D1F407AD600989D9D /* WashNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WashNavigationBar.swift; sourceTree = "<group>"; };
+		C442AD7F1F40A75F00989D9D /* SlideMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideMenuController.swift; sourceTree = "<group>"; };
+		C442AD811F40A82C00989D9D /* Rajdhani-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rajdhani-Bold.ttf"; sourceTree = "<group>"; };
+		C442AD821F40A84100989D9D /* Rajdhani-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rajdhani-Light.ttf"; sourceTree = "<group>"; };
+		C442AD831F40A84100989D9D /* Rajdhani-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rajdhani-Medium.ttf"; sourceTree = "<group>"; };
+		C442AD841F40A84100989D9D /* Rajdhani-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rajdhani-Regular.ttf"; sourceTree = "<group>"; };
+		C442AD851F40A84100989D9D /* Rajdhani-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rajdhani-SemiBold.ttf"; sourceTree = "<group>"; };
+		C442AD861F40A84100989D9D /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		C442AD8D1F40B0D800989D9D /* LeftSideMenu.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LeftSideMenu.storyboard; sourceTree = "<group>"; };
+		C442AD8F1F40B0F600989D9D /* LeftSideMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftSideMenuViewController.swift; sourceTree = "<group>"; };
 		C4B179091F386C3000317D1D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C4B1790D1F389C1000317D1D /* GetCodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetCodeViewController.swift; sourceTree = "<group>"; };
 		C4B1790F1F38A1BE00317D1D /* CheckCodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckCodeViewController.swift; sourceTree = "<group>"; };
@@ -139,6 +161,48 @@
 				77AB7751BB91A13EB3C3EB09 /* Pods-WashVes NativeUITests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		C442AD761F4060D900989D9D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C442AD6C1F3F2C2600989D9D /* MessageScreenViewController.swift */,
+				C442AD721F3F508D00989D9D /* MessageScreen.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		C442AD781F40610000989D9D /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				C442AD791F40611D00989D9D /* MessageViewModel.swift */,
+			);
+			name = "View Model";
+			sourceTree = "<group>";
+		};
+		C442AD7B1F40638F00989D9D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C442AD701F3F3AAF00989D9D /* MainMenu.storyboard */,
+				C442AD6E1F3F3AA700989D9D /* MainMenuViewController.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		C442AD7C1F40639700989D9D /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "View Model";
+			sourceTree = "<group>";
+		};
+		C442AD911F40B10400989D9D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C442AD8F1F40B0F600989D9D /* LeftSideMenuViewController.swift */,
+				C442AD8D1F40B0D800989D9D /* LeftSideMenu.storyboard */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 		C4CAA7281F3744B6002BD1F0 /* Cells */ = {
@@ -242,6 +306,12 @@
 		C4E51C991F36658C00992529 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				C442AD821F40A84100989D9D /* Rajdhani-Light.ttf */,
+				C442AD831F40A84100989D9D /* Rajdhani-Medium.ttf */,
+				C442AD841F40A84100989D9D /* Rajdhani-Regular.ttf */,
+				C442AD851F40A84100989D9D /* Rajdhani-SemiBold.ttf */,
+				C442AD861F40A84100989D9D /* Roboto-Regular.ttf */,
+				C442AD811F40A82C00989D9D /* Rajdhani-Bold.ttf */,
 			);
 			name = Fonts;
 			sourceTree = "<group>";
@@ -308,7 +378,7 @@
 		C4E51CA11F3665EA00992529 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
-				C442AD741F3F847200989D9D /* WashNavigationViewController.swift */,
+				C442AD7F1F40A75F00989D9D /* SlideMenuController.swift */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -316,6 +386,8 @@
 		C4E51CA21F3665FF00992529 /* Custom Views */ = {
 			isa = PBXGroup;
 			children = (
+				C442AD7D1F407AD600989D9D /* WashNavigationBar.swift */,
+				C442AD741F3F847200989D9D /* WashNavigationViewController.swift */,
 			);
 			name = "Custom Views";
 			sourceTree = "<group>";
@@ -323,8 +395,8 @@
 		C4E51CA41F36662C00992529 /* Main Menu  */ = {
 			isa = PBXGroup;
 			children = (
-				C442AD6E1F3F3AA700989D9D /* MainMenuViewController.swift */,
-				C442AD701F3F3AAF00989D9D /* MainMenu.storyboard */,
+				C442AD7C1F40639700989D9D /* View Model */,
+				C442AD7B1F40638F00989D9D /* Views */,
 			);
 			name = "Main Menu ";
 			sourceTree = "<group>";
@@ -346,8 +418,8 @@
 		C4E51CA81F36665800992529 /* Messages */ = {
 			isa = PBXGroup;
 			children = (
-				C442AD6C1F3F2C2600989D9D /* MessageScreenViewController.swift */,
-				C442AD721F3F508D00989D9D /* MessageScreen.storyboard */,
+				C442AD781F40610000989D9D /* View Model */,
+				C442AD761F4060D900989D9D /* Views */,
 			);
 			name = Messages;
 			sourceTree = "<group>";
@@ -371,6 +443,7 @@
 		C4E51CAB1F36667F00992529 /* Drawer */ = {
 			isa = PBXGroup;
 			children = (
+				C442AD911F40B10400989D9D /* Views */,
 			);
 			name = Drawer;
 			sourceTree = "<group>";
@@ -530,9 +603,16 @@
 				C442AD711F3F3AAF00989D9D /* MainMenu.storyboard in Resources */,
 				C4E51C711F36654500992529 /* Assets.xcassets in Resources */,
 				C4E51C6C1F36654500992529 /* Main.storyboard in Resources */,
+				C442AD8C1F40A84A00989D9D /* Rajdhani-Bold.ttf in Resources */,
 				C442AD731F3F508D00989D9D /* MessageScreen.storyboard in Resources */,
+				C442AD871F40A84100989D9D /* Rajdhani-Light.ttf in Resources */,
+				C442AD8E1F40B0D800989D9D /* LeftSideMenu.storyboard in Resources */,
+				C442AD8A1F40A84100989D9D /* Rajdhani-SemiBold.ttf in Resources */,
 				C4CAA72C1F3744E0002BD1F0 /* CityTableViewCell.xib in Resources */,
+				C442AD891F40A84100989D9D /* Rajdhani-Regular.ttf in Resources */,
 				C4E51CC61F371B0F00992529 /* GetStarted.storyboard in Resources */,
+				C442AD8B1F40A84100989D9D /* Roboto-Regular.ttf in Resources */,
+				C442AD881F40A84100989D9D /* Rajdhani-Medium.ttf in Resources */,
 				C4B1790A1F386C3000317D1D /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -696,15 +776,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C442AD901F40B0F600989D9D /* LeftSideMenuViewController.swift in Sources */,
 				C4B179101F38A1BE00317D1D /* CheckCodeViewController.swift in Sources */,
+				C442AD7A1F40611D00989D9D /* MessageViewModel.swift in Sources */,
 				C442AD751F3F847200989D9D /* WashNavigationViewController.swift in Sources */,
 				C4E51C691F36654500992529 /* SplashViewController.swift in Sources */,
 				C4E51C6F1F36654500992529 /* WashVes_Native.xcdatamodeld in Sources */,
 				C442AD6D1F3F2C2600989D9D /* MessageScreenViewController.swift in Sources */,
 				C4CAA72B1F3744E0002BD1F0 /* CityTableViewCell.swift in Sources */,
+				C442AD7E1F407AD600989D9D /* WashNavigationBar.swift in Sources */,
 				C4CAA72F1F374D0D002BD1F0 /* GetStartedViewModel.swift in Sources */,
 				C442AD6F1F3F3AA700989D9D /* MainMenuViewController.swift in Sources */,
 				C4E51C671F36654500992529 /* AppDelegate.swift in Sources */,
+				C442AD801F40A75F00989D9D /* SlideMenuController.swift in Sources */,
 				C4E51CC81F371B2600992529 /* GetStartedViewController.swift in Sources */,
 				C4B1790E1F389C1000317D1D /* GetCodeViewController.swift in Sources */,
 			);

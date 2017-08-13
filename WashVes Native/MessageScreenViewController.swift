@@ -9,20 +9,14 @@
 import UIKit
 
 class MessageScreenViewController: UIViewController {
-    var msgImage: UIImage?
-    var msgTitle: String?
-    var msgSubtitle: String?
-    var btnText: String?
-    
-    var destinationSB: String?
-    var destinationVC: String?
+    var messageModel = MessageViewModel()
     
     // Outlets
     
     @IBOutlet weak var screenImage: UIImageView!
     @IBOutlet weak var screenTitle: UILabel!
     @IBAction func btnAction(_ sender: UIButton) {
-        btnGoTo(sb: self.destinationSB!, vc: self.destinationVC!)
+        btnGoTo(sb: messageModel.destinationSB!, vc: messageModel.destinationVC!)
     }
     @IBOutlet weak var screenSubtitle: UILabel!
     @IBOutlet weak var btnOK: UIButton!
@@ -32,7 +26,6 @@ class MessageScreenViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         setupMessage()
-        self.navigationController?.setViewControllers([self], animated: true)
     }
 
     override func didReceiveMemoryWarning() {
@@ -41,11 +34,11 @@ class MessageScreenViewController: UIViewController {
     }
     
     func setupMessage() {
-        screenImage.image = msgImage
-        screenTitle.text = msgTitle
-        screenSubtitle.text = msgSubtitle
+        screenImage.image = messageModel.msgImage
+        screenTitle.text = messageModel.msgTitle
+        screenSubtitle.text = messageModel.msgSubtitle
         
-        btnOK.titleLabel?.text = btnText
+        btnOK.titleLabel?.text = messageModel.btnText
         btnOK.layer.cornerRadius = 20
     }
     
@@ -60,7 +53,20 @@ class MessageScreenViewController: UIViewController {
     
     func btnGoTo(sb: String, vc: String) {
         let destinationVC = getViewController(storyboard: sb, name: vc)
-        self.navigationController?.pushViewController(destinationVC!, animated: true)
+        let nav = UIStoryboard(name: sb, bundle: nil).instantiateInitialViewController() as! WashNavigationViewController
+        nav.setViewControllers([destinationVC!], animated: true)
+        
+        // Set left side controller as root, with main scren also
+        let delegate = UIApplication.shared.delegate as! AppDelegate
+        
+        // Pick LeftSideMenu sb and vc
+        let sideMenu = UIStoryboard(name: "LeftSideMenu", bundle: nil)
+        let sideMenuVC = sideMenu.instantiateViewController(withIdentifier: "LeftSideMenuViewController") as! LeftSideMenuViewController
+        let slideMenuController = SlideMenuController(mainViewController: nav, leftMenuViewController: sideMenuVC)
+        
+        delegate.window?.rootViewController = slideMenuController
+        delegate.window?.makeKeyAndVisible()
+
     }
     
 

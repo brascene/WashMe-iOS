@@ -1,34 +1,19 @@
 //
-//  MainMenuViewController.swift
+//  LeftSideMenuViewController.swift
 //  WashVes Native
 //
-//  Created by Dino Pelic on 8/12/17.
+//  Created by Dino Pelic on 8/13/17.
 //  Copyright © 2017 Dino Pelic. All rights reserved.
 //
 
 import UIKit
 
-class MainMenuViewController: UIViewController {
+class LeftSideMenuViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-    }
-    
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
-        self.title = "Choose items"
-        
-        if(UIDevice.current.userInterfaceIdiom == .pad){
-            self.addLeftBarButtonWithImage(#imageLiteral(resourceName: "hamburger"))
-            // change font
-        }
-        else {
-            self.addLeftBarButtonWithImage(#imageLiteral(resourceName: "hamburger"))
-            self.navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.white]
-        }
-        self.navigationItem.leftBarButtonItem?.tintColor = UIColor.white
     }
 
     override func didReceiveMemoryWarning() {

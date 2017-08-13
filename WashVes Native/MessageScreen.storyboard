@@ -15,9 +15,10 @@
         <scene sceneID="XqY-Qh-pH3">
             <objects>
                 <navigationController navigationBarHidden="YES" id="g4S-9l-hgg" customClass="WashNavigationViewController" customModule="WashVes_Native" customModuleProvider="target" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Ly6-Hj-KQt">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="Ly6-Hj-KQt">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </navigationBar>
                     <connections>
                         <segue destination="LmB-sJ-DfP" kind="relationship" relationship="rootViewController" id="mmb-1k-Jip"/>
@@ -27,7 +28,7 @@
             </objects>
             <point key="canvasLocation" x="2545" y="78"/>
         </scene>
-        <!--Message Screen View Controller-->
+        <!--Message-->
         <scene sceneID="Wzj-tR-Ui4">
             <objects>
                 <viewController storyboardIdentifier="MessageScreen" id="LmB-sJ-DfP" customClass="MessageScreenViewController" customModule="WashVes_Native" customModuleProvider="target" sceneMemberID="viewController">
@@ -40,7 +41,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="uQP-d9-Vuu">
-                                <rect key="frame" x="82" y="214" width="210" height="174"/>
+                                <rect key="frame" x="82" y="170" width="210" height="218"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yzX-u8-m49">
                                 <rect key="frame" x="16" y="603" width="343" height="44"/>
@@ -91,7 +92,7 @@
                             <constraint firstItem="uQP-d9-Vuu" firstAttribute="leading" secondItem="Utf-UE-c4D" secondAttribute="leadingMargin" constant="66" id="z1M-Dl-VGp"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="oF6-Wv-2CG"/>
+                    <navigationItem key="navigationItem" title="Message" id="oF6-Wv-2CG"/>
                     <connections>
                         <outlet property="btnOK" destination="yzX-u8-m49" id="hxE-YT-3ae"/>
                         <outlet property="screenImage" destination="uQP-d9-Vuu" id="t1Q-CG-wSK"/>

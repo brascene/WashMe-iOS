@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Left Side Menu View Controller-->
+        <scene sceneID="h2G-8N-EWm">
+            <objects>
+                <viewController storyboardIdentifier="LeftSideMenuViewController" id="jSd-Ph-bvI" customClass="LeftSideMenuViewController" customModule="WashVes_Native" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="C5T-rK-svW"/>
+                        <viewControllerLayoutGuide type="bottom" id="oL3-Cs-p50"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Eh4-8B-gZx">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Left Side" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fUV-es-qGJ">
+                                <rect key="frame" x="86" y="279" width="202" height="108"/>
+                                <color key="backgroundColor" red="0.96862745098039216" green="0.46644422743055558" blue="1" alpha="1" colorSpace="deviceRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.40123155381944442" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
+                        <constraints>
+                            <constraint firstItem="oL3-Cs-p50" firstAttribute="top" secondItem="fUV-es-qGJ" secondAttribute="bottom" constant="280" id="8V6-rh-yN7"/>
+                            <constraint firstItem="fUV-es-qGJ" firstAttribute="top" secondItem="C5T-rK-svW" secondAttribute="bottom" constant="259" id="GFy-YJ-gyo"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="fUV-es-qGJ" secondAttribute="trailing" constant="71" id="S7F-A7-Hqz"/>
+                            <constraint firstItem="fUV-es-qGJ" firstAttribute="leading" secondItem="Eh4-8B-gZx" secondAttribute="leadingMargin" constant="70" id="biC-Jc-rlS"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IEe-R1-eS5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="132" y="87.706146926536732"/>
+        </scene>
+    </scenes>
+</document>
