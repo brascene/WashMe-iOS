@@ -28,7 +28,7 @@ class WashNavigationBar: UINavigationBar {
             frame.size.height = 155
         }
         else {
-            frame.size.height = 71
+            frame.size.height = 64
         }
         self.frame = frame
         super.draw(frame)
@@ -50,7 +50,7 @@ class WashNavigationBar: UINavigationBar {
         
         self.insertSubview(imageView, at: 0)
         
-        let const : CGFloat = UIDevice.current.userInterfaceIdiom == .pad ? 35 : 12
+        //let const : CGFloat = UIDevice.current.userInterfaceIdiom == .pad ? 35 : 12
         
        /* let classes = [ "_UINavigationBarBackIndicatorView", "UINavigationButton"]
         for view in self.subviews {
