@@ -9,6 +9,8 @@ target 'WashVes Native' do
 
   pod 'Firebase/Core'
   pod 'Firebase/Auth'
+  pod 'ObjectMapper', '~> 2.2'
+
   target 'WashVes NativeTests' do
     inherit! :search_paths
     # Pods for testing

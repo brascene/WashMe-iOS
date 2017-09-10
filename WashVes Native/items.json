@@ -1,0 +1,266 @@
+{
+    "clothingItems": [
+                                  {
+                                  "name": "Majice",
+                                  "key": 1,
+                                  "img": "1",
+                                  "unitPrice": 1,
+                                  "hasSubItems" : true,
+                                  "subItems": [
+                                               {
+                                               "name" : "Dugi rukav",
+                                               "key" : 121,
+                                               "img" : "11",
+                                               "unitPrice" : 5
+                                               },
+                                               {
+                                               "name" : "Kratki rukav",
+                                               "key" : 122,
+                                               "img" : "12",
+                                               "unitPrice" : 4
+                                               },
+                                               {
+                                               "name" : "Dukserica",
+                                               "key" : 123,
+                                               "img" : "13",
+                                               "unitPrice" : 6
+                                               },
+                                               {
+                                               "name" : "Košulja",
+                                               "key" : 124,
+                                               "img" : "14",
+                                               "unitPrice" : 5
+                                               },
+                                               {
+                                               "name" : "Bluza",
+                                               "key" : 125,
+                                               "img" : "15",
+                                               "unitPrice" : 6
+                                               },
+                                               {
+                                               "name" : "Džemper",
+                                               "img" : "16",
+                                               "key" : 126,
+                                               "unitPrice" : 7
+                                               }
+                                               ]
+                                  },
+                                  {
+                                  "name": "Hlače",
+                                  "key": 2,
+                                  "img": "2",
+                                  "unitPrice": 2,
+                                  "hasSubItems" : true,
+                                  "subItems": [
+                                               {
+                                               "name" : "Duge  hlače",
+                                               "key" : 221,
+                                               "img" : "21",
+                                               "unitPrice" : 8
+                                               },
+                                               {
+                                               "name" : "Trenerka",
+                                               "key" : 222,
+                                               "img" : "22",
+                                               "unitPrice" : 10
+                                               },
+                                               {
+                                               "name" : "Šorc",
+                                               "img" : "23",
+                                               "key" : 223,
+                                               "unitPrice" : 4
+                                               }
+                                               ]
+                                  },
+                                  {
+                                  "name": "Suknje",
+                                  "key": 3,
+                                  "img": "3",
+                                  "unitPrice": 2,
+                                  "hasSubItems" : true,
+                                  "subItems": [
+                                               {
+                                               "name" : "Duga suknja",
+                                               "key" : 321,
+                                               "img" : "31",
+                                               "unitPrice" : 9
+                                               },
+                                               {
+                                               "name" : "Kratka suknja",
+                                               "key" : 322,
+                                               "img" : "32",
+                                               "unitPrice" : 5
+                                               },
+                                               ]
+                                  },
+                                  {
+                                  "name": "Haljine",
+                                  "key": 4,
+                                  "img": "4",
+                                  "unitPrice": 2,
+                                  "hasSubItems" : true,
+                                  "subItems": [
+                                               {
+                                               "name" : "Duga haljina",
+                                               "key" : 421,
+                                               "img" : "41",
+                                               "unitPrice" : 18
+                                               },
+                                               {
+                                               "name" : "Kratka haljina",
+                                               "key" : 422,
+                                               "img" : "42",
+                                               "unitPrice" : 10
+                                               },
+                                               {
+                                               "name" : "Svečana haljina",
+                                               "key" : 423,
+                                               "img" : "43",
+                                               "unitPrice" : 25
+                                               }
+                                               ]
+                                  },
+                                  {
+                                  "name": "Donji veš",
+                                  "key": 5,
+                                  "img": "5",
+                                  "unitPrice": 2,
+                                  "hasSubItems" : true,
+                                  "subItems": [
+                                               {
+                                               "name" : "Gaće",
+                                               "key" : 521,
+                                               "img" : "51",
+                                               "unitPrice" : 2
+                                               },
+                                               {
+                                               "name" : "Potkošulja",
+                                               "key" : 522,
+                                               "img" : "52",
+                                               "unitPrice" : 2
+                                               },
+                                               {
+                                               "name" : "Grudnjak",
+                                               "key" : 523,
+                                               "img" : "53",
+                                               "unitPrice" : 3
+                                               }
+                                               ]
+                                  },
+                                  {
+                                  "name": "Jakne",
+                                  "key": 6,
+                                  "img": "6",
+                                  "unitPrice": 2,
+                                  "hasSubItems" : true,
+                                  "subItems": [
+                                               {
+                                               "name" : "Kaput",
+                                               "key" : 621,
+                                               "img" : "61",
+                                               "unitPrice" : 25
+                                               },
+                                               {
+                                               "name" : "Jakna",
+                                               "key" : 622,
+                                               "img" : "62",
+                                               "unitPrice" : 20
+                                               },
+                                               {
+                                               "name" : "Mantil",
+                                               "key" : 623,
+                                               "img" : "63",
+                                               "unitPrice" : 20
+                                               }
+                                               ]
+                                  },
+                                  {
+                                  "name": "Odijela",
+                                  "key": 7,
+                                  "img": "7",
+                                  "unitPrice": 2,
+                                  "hasSubItems" : true,
+                                  "subItems": [
+                                               {
+                                               "name" : "Sako",
+                                               "key" : 721,
+                                               "img" : "71",
+                                               "unitPrice" : 10
+                                               },
+                                               {
+                                               "name" : "Hlače",
+                                               "key" : 722,
+                                               "img" : "73",
+                                               "unitPrice" : 10
+                                               }
+                                               ]
+                                  },
+                                  {
+                                  "name": "Dodaci",
+                                  "key": 8,
+                                  "img" : "8",
+                                  "unitPrice": 2,
+                                  "hasSubItems" : true,
+                                  "subItems": [
+                                               {
+                                               "name" : "Čarape",
+                                               "key" : 821,
+                                               "img" : "81",
+                                               "unitPrice" : 1
+                                               },
+                                               {
+                                               "name" : "Šal",
+                                               "key" : 822,
+                                               "img" : "82",
+                                               "unitPrice" : 4
+                                               },
+                                               {
+                                               "name" : "Kapa",
+                                               "key" : 823,
+                                               "img" : "83",
+                                               "unitPrice" : 4
+                                               },
+                                               {
+                                               "name" : "Kravata",
+                                               "key" : 824,
+                                               "img" : "84",
+                                               "unitPrice" : 4
+                                               }
+                                               ]
+                                  },
+                                  {
+                                  "name": "Kućanstvo",
+                                  "key": 9,
+                                  "unitPrice": 2,
+                                  "img": "9",
+                                  "hasSubItems" : true,
+                                  "subItems": [
+                                               {
+                                               "name" : "Posteljina",
+                                               "key" : 921,
+                                               "img" : "91",
+                                               "unitPrice" : 7
+                                               },
+                                               {
+                                               "name" : "Pokrivači",
+                                               "key" : 922,
+                                               "img": "92",
+                                               "unitPrice" : 22
+                                               },
+                                               {
+                                               "name" : "Jastuk",
+                                               "key" : 923,
+                                               "img": "93",
+                                               "unitPrice" : 10
+                                               }
+                                               ]
+                                  },
+                                  {
+                                  "name": "Dođi po robu",
+                                  "key": 0,
+                                  "img": "10",
+                                  "unitPrice": 2,
+                                  "hasSubItems" : false,
+                                  }
+                                  ]
+}
